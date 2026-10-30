@@ -2,7 +2,7 @@ import boto3
 from pathlib import Path
 
 # Configuration
-bucket_name = "fuadd-s3-bucket1"  # create an unique bucket in AWS
+bucket_name = "fuadd-s3-demo-bucket"  # create an unique bucket in AWS
 folder_path = Path("./my-assets")
 
 # Create S3 client (uses configured AWS credentials)
